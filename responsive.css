@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 0;
+  }
+  main {
+    border-radius: 0;
+    width: 100%;
+  }
+  .heading img {
+    margin-bottom: 0;
+  }
+  main p,
+  main li {
+    font-size: 13px;
+  }
+}
+@media (max-width: 440px) {
+  .headingText h1 {
+    font-size: 1.6rem;
+  }
+  .heading .time h3 {
+    font-size: 1.1rem;
+  }
+  main h2 {
+    font-size: 1.3rem;
+  }
+}
