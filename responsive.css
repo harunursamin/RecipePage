@@ -9,18 +9,22 @@
     padding: 0;
   }
   main {
+    padding: 0 !important;
     border-radius: 0;
     width: 100%;
   }
+  .headingText,
+  .cardSection {
+    padding-inline: 1.5rem;
+  }
   .heading img {
+    border-radius: 0;
     margin-bottom: 0;
   }
   main p,
   main li {
     font-size: 13px;
   }
-}
-@media (max-width: 440px) {
   .headingText h1 {
     font-size: 1.6rem;
   }
